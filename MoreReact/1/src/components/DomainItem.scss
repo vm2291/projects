@@ -1,0 +1,62 @@
+.domain-item {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure the item takes up the full width of its container */
+    
+    .icon {
+      width: 3rem; 
+      height: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background-color: transparent;
+      border: 0.125rem solid #ccc;
+      margin-right: 1rem;
+      box-sizing: border-box;
+      flex-shrink: 0; /* Prevent shrinking */
+  
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+        color: #007bff;
+      }
+    }
+  
+    .text-content {
+      h2 {
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 0;
+        color: #333;
+      }
+  
+      p {
+        font-size: 0.875rem;
+        color: #666;
+        margin-top: 0.3125rem;
+      }
+    }
+  
+    @media (max-width: 480px) {
+      flex-direction: column;
+      align-items: center; /* Center all content */
+      text-align: center; /* Center the text content */
+  
+      .icon {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+      }
+  
+      .text-content {
+        h2 {
+          font-size: 0.875rem;
+        }
+  
+        p {
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+  

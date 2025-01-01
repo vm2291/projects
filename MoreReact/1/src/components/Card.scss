@@ -1,0 +1,95 @@
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.6rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 1rem;
+    max-width: 100%; 
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    min-height: 19rem;
+    
+    .card-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-weight: bold;
+  
+      .version-date {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+  
+        .version {
+          font-weight: bold;
+          color: #666;
+          margin-right: 0.5rem;
+        }
+  
+        .date {
+          color: #666;
+        }
+      }
+    }
+  
+    .card-tag {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+  
+      .tag {
+        padding: 0.6rem 1rem;
+        border-radius: 5px;
+        color: white;
+        margin-right: 1rem;
+        font-size: 0.75rem;
+      }
+  
+      .profile-pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 0.8rem; // Increased space between profile pic and name
+      }
+  
+      .name {
+        font-weight: bold;
+        font-size: 0.9rem;
+      }
+
+      .download-button {
+        padding: 0.75rem 2rem; 
+        border: 1px solid #007bff;
+        border-radius: 20px;
+        background: transparent;
+        color: #ff0000;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        width: auto;
+        display: inline-block;
+        align-self: flex-start; // Align button to the left
+    
+        &:hover {
+          background: #007bff;
+          color: white;
+        }
+      }
+    }
+  
+    .description {
+      font-size: 0.875rem;
+      color: #888888;
+      font-weight: 400;
+      margin-bottom: 1.5rem;
+      white-space: pre-line; 
+      flex-grow: 1;
+      text-align: left;
+    }
+  
+
+  }
+  

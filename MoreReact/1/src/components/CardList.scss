@@ -1,0 +1,39 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem; /* Gap between cards */
+    margin: 0 auto; /* Center the container */
+
+    .card {
+        flex: 1 1 calc(33.333% - 1.25rem); /* Default to three columns */
+        max-width: 20rem; /* Limit the card width to 20rem */
+    }
+
+    @media (min-width: 1025px) {
+        max-width: 1262px; /* Container width for exactly two rows and three columns */
+        .card {
+            flex: 1 1 calc(33.333% - 1.25rem); /* Ensure three columns per row */
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .card {
+            flex: 1 1 calc(33.333% - 1.25rem); /* Still three columns */
+        }
+    }
+
+    @media (max-width: 650px) {
+        .card {
+            flex: 1 1 calc(50% - 1.25rem); /* Switch to two columns */
+        }
+    }
+
+    @media (max-width: 480px) {
+        padding: 0 1rem; /* Add padding on the edges */
+        .card {
+            flex: 1 1 100%; /* Switch to one column */
+            margin: 0.5rem 0; /* Avoid overlap */
+        }
+    }
+}

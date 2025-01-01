@@ -1,0 +1,44 @@
+.card {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 6px;
+  }
+  
+  .domain-name {
+    font-size: 1.6em;
+    margin-bottom: 40px;
+  }
+  
+  .price {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .old-price {
+    font-size: 1rem;
+    color: #a3a0a0;
+    margin-bottom: 30px;
+  }
+  
+  .buy-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background: white;
+    color: #1e90ff; 
+    border: 2px solid #1e90ff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .buy-button:hover {
+    background: #1e90ff; 
+    color: white;
+  }
+  

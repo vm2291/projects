@@ -1,0 +1,102 @@
+.app-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+  }
+  
+  .react-tabs__tab-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: none;
+    flex-wrap: wrap; 
+    padding: 0 10px; 
+  }
+  
+  .react-tabs__tab {
+    margin: 0 10px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: black;
+    position: relative;
+    text-align: center; 
+  
+    &--selected {
+      color: black;
+      font-weight: bold;
+  
+      &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        width: 65%;
+        height: 2px;
+        background-color: #1e90ff; 
+        transition: width 0.3s ease;
+      }
+  
+      &:focus::after,
+      &:active::after {
+        width: 65%; 
+      }
+    }
+  
+    &:focus {
+      outline: none; 
+    }
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .cards-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cards-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .react-tabs__tab-list {
+      justify-content: center; 
+      flex-wrap: wrap; 
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 10px; 
+    }
+  
+    .react-tabs__tab {
+      margin: 0;
+      margin-bottom: 10px;
+      text-align: center; 
+      flex-grow: unset; 
+    }
+  }
+  
+  @media (max-width: 462px) {
+    .react-tabs__tab-list {
+      justify-content: center; 
+    }
+  
+    .react-tabs__tab {
+      width: 100%;
+      text-align: center; 
+    }
+  }
+  
+  
+  
