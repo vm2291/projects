@@ -1,0 +1,105 @@
+2023-01-30T04:42:28+00:00 CRITICAL Uncaught Error: Call to a member function iterate_data() on null in /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php:77
+Stack trace:
+#0 /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php(135): Essential_Addons_Elementor\Classes\Elements_Manager->get_widget_list(Array)
+#1 /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(120): Essential_Addons_Elementor\Classes\Elements_Manager->get_element_list(false)
+#2 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(308): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load('')
+#3 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#6 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#7 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#8 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->setup_theme('')
+#9 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/vleramehani/Local Sites/physics-world/app/public/wp-settings.php(549): do_action('setup_theme')
+#12 /Users/vleramehani/Local Sites/physics-world/app/public/wp-config.php(93): require_once('/Users/vlerameh...')
+#13 /Users/vleramehani/Local Sites/physics-world/app/public/wp-load.php(50): require_once('/Users/vlerameh...')
+#14 /Users/vleramehani/Local Sites/physics-world/app/public/wp-blog-header.php(13): require_once('/Users/vlerameh...')
+#15 /Users/vleramehani/Local Sites/physics-world/app/public/index.php(17): require('/Users/vlerameh...')
+#16 {main}
+  thrown in /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php on line 77
+
+2023-01-30T04:42:34+00:00 CRITICAL Uncaught Error: Call to a member function iterate_data() on null in /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php:77
+Stack trace:
+#0 /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php(135): Essential_Addons_Elementor\Classes\Elements_Manager->get_widget_list(Array)
+#1 /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(120): Essential_Addons_Elementor\Classes\Elements_Manager->get_element_list(false)
+#2 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(308): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load('')
+#3 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#6 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#7 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#8 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->setup_theme('')
+#9 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/vleramehani/Local Sites/physics-world/app/public/wp-settings.php(549): do_action('setup_theme')
+#12 /Users/vleramehani/Local Sites/physics-world/app/public/wp-config.php(93): require_once('/Users/vlerameh...')
+#13 /Users/vleramehani/Local Sites/physics-world/app/public/wp-load.php(50): require_once('/Users/vlerameh...')
+#14 /Users/vleramehani/Local Sites/physics-world/app/public/wp-blog-header.php(13): require_once('/Users/vlerameh...')
+#15 /Users/vleramehani/Local Sites/physics-world/app/public/index.php(17): require('/Users/vlerameh...')
+#16 {main}
+  thrown in /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php on line 77
+
+2023-01-30T04:42:38+00:00 CRITICAL Uncaught Error: Call to a member function iterate_data() on null in /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php:77
+Stack trace:
+#0 /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php(135): Essential_Addons_Elementor\Classes\Elements_Manager->get_widget_list(Array)
+#1 /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(120): Essential_Addons_Elementor\Classes\Elements_Manager->get_element_list(false)
+#2 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(308): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load('')
+#3 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#6 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#7 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#8 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->setup_theme('')
+#9 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/vleramehani/Local Sites/physics-world/app/public/wp-settings.php(549): do_action('setup_theme')
+#12 /Users/vleramehani/Local Sites/physics-world/app/public/wp-config.php(93): require_once('/Users/vlerameh...')
+#13 /Users/vleramehani/Local Sites/physics-world/app/public/wp-load.php(50): require_once('/Users/vlerameh...')
+#14 /Users/vleramehani/Local Sites/physics-world/app/public/wp-blog-header.php(13): require_once('/Users/vlerameh...')
+#15 /Users/vleramehani/Local Sites/physics-world/app/public/index.php(17): require('/Users/vlerameh...')
+#16 {main}
+  thrown in /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php on line 77
+
+2023-01-30T04:42:43+00:00 CRITICAL Uncaught Error: Call to a member function iterate_data() on null in /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php:77
+Stack trace:
+#0 /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php(135): Essential_Addons_Elementor\Classes\Elements_Manager->get_widget_list(Array)
+#1 /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(120): Essential_Addons_Elementor\Classes\Elements_Manager->get_element_list(false)
+#2 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(308): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load('')
+#3 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#6 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#7 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#8 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->setup_theme('')
+#9 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/vleramehani/Local Sites/physics-world/app/public/wp-settings.php(549): do_action('setup_theme')
+#12 /Users/vleramehani/Local Sites/physics-world/app/public/wp-config.php(93): require_once('/Users/vlerameh...')
+#13 /Users/vleramehani/Local Sites/physics-world/app/public/wp-load.php(50): require_once('/Users/vlerameh...')
+#14 /Users/vleramehani/Local Sites/physics-world/app/public/wp-blog-header.php(13): require_once('/Users/vlerameh...')
+#15 /Users/vleramehani/Local Sites/physics-world/app/public/index.php(17): require('/Users/vlerameh...')
+#16 {main}
+  thrown in /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php on line 77
+
+2023-01-30T04:42:49+00:00 CRITICAL Uncaught Error: Call to a member function iterate_data() on null in /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php:77
+Stack trace:
+#0 /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php(135): Essential_Addons_Elementor\Classes\Elements_Manager->get_widget_list(Array)
+#1 /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(120): Essential_Addons_Elementor\Classes\Elements_Manager->get_element_list(false)
+#2 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(308): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load('')
+#3 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#6 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#7 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#8 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->setup_theme('')
+#9 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/vleramehani/Local Sites/physics-world/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/vleramehani/Local Sites/physics-world/app/public/wp-settings.php(549): do_action('setup_theme')
+#12 /Users/vleramehani/Local Sites/physics-world/app/public/wp-config.php(93): require_once('/Users/vlerameh...')
+#13 /Users/vleramehani/Local Sites/physics-world/app/public/wp-load.php(50): require_once('/Users/vlerameh...')
+#14 /Users/vleramehani/Local Sites/physics-world/app/public/wp-blog-header.php(13): require_once('/Users/vlerameh...')
+#15 /Users/vleramehani/Local Sites/physics-world/app/public/index.php(17): require('/Users/vlerameh...')
+#16 {main}
+  thrown in /Users/vleramehani/Local Sites/physics-world/app/public/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Elements_Manager.php on line 77
+

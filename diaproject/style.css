@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;       
+}
+
+body
+{
+    background-image: url(img/bg3.jpg);
+    background-repeat: no-repeat;
+}
+
+.container
+{
+    align-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-left: 480px;
+    width: 450px;
+    
+    min-height: 50px;
+    border-radius: 10px;
+    padding: 60px 30px;
+    box-shadow: 0 0 40px rgba(0,0,0, .9);
+}
+
+.container .login-text
+{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.container .login-email .input-group
+{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+ .container .login-email .input-group input
+{
+    color:white;
+    width: 100%;
+    height: 100%;
+    border: 3px solid purple;
+    padding: 15px 20px;
+    border-radius: 40px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .login-email .input-group input:focus,
+.container .login-email .input-group input:valid
+{
+    border-color: #2227a5;
+}
+
+.container .login-email .input-group .btn
+{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: purple;
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .login-email .input-group .btn:hover
+{
+    color: white;
+    background-color: #2227a5;
+    transform: translateY(-5px);
+    transition: 0.1s ease;
+}
+
+.login-signup-text
+{
+    color: white;
+    font-weight: 700;
+}
+
+.login-signup-text a
+{
+    text-decoration: none;
+    color: #ff6ec7;
+}
+
+.login-signup-text a:hover
+{
+    color: skyblue;
+    text-decoration: underline;
+}
